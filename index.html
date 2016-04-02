@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>SweetyCatEars</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<!--<video controls="" autoplay="" name="media" style="max-width: 100%; max-height: 100%;"><source src="http://data.5sing.kgimg.com/G054/M09/1C/1D/FpQEAFbZvuuAQWPCAKV_pB1iBR0715.mp3" type="audio/mpeg"></video>-->
+    <div class="angel" id="angel">
+        <img class="img img-responsive object-absolute angel_bg" id="angel_bg" src="http://7xpcb0.com1.z0.glb.clouddn.com/angle_bg.png">
+        <img class="img img-responsive object-absolute angel_code" id="angel_code" src="http://7xpcb0.com1.z0.glb.clouddn.com/angle_code.png">
+    </div>
+    <div class="page-header">
+        <img class="img img-responsive object-absolute" id="bottom_bg" src="http://7xpcb0.com1.z0.glb.clouddn.com/bottom_bg.png">
+        <img class="img img-responsive object-absolute" id="first_bg" src="http://7xpcb0.com1.z0.glb.clouddn.com/index_bg.jpg">
+        <img class="img img-responsive object-absolute down-btn" id="down-btn" src="http://7xpcb0.com1.z0.glb.clouddn.com/down_btn.png">
+        <img class="img img-responsive object-absolute wings" id="wings" src="http://7xpcb0.com1.z0.glb.clouddn.com/wings.png">
+        <img class="img img-responsive light" id="light" src="http://7xpcb0.com1.z0.glb.clouddn.com/light.png">
+    </div>
+    <div class="content">
+        <header>
+            <img class="img img-responsive object-absolute" id="content-bg" src="http://7xpcb0.com1.z0.glb.clouddn.com/content_bg.png">
+        </header>
+        <section>
+            <img class="img img-responsive object-absolute object-opacity-hide" id="content-1" src="http://7xpcb0.com1.z0.glb.clouddn.com/content_1.png">
+            <img class="img img-responsive object-absolute object-opacity-hide" id="content-2" src="http://7xpcb0.com1.z0.glb.clouddn.com/content_2.png">
+            <img class="img img-responsive object-absolute object-opacity-hide" id="content-3" src="http://7xpcb0.com1.z0.glb.clouddn.com/content_3.png">
+            <img class="img img-responsive object-absolute object-opacity-hide" id="content-4" src="http://7xpcb0.com1.z0.glb.clouddn.com/content_4.png">
+            <img class="img img-responsive object-absolute object-opacity-hide" id="content-5" src="http://7xpcb0.com1.z0.glb.clouddn.com/content_5.png">
+            <img class="img img-responsive object-absolute object-opacity-hide" id="content-6" src="http://7xpcb0.com1.z0.glb.clouddn.com/content_6.png">
+            <img class="img img-responsive object-absolute object-opacity-hide" id="content-7" src="http://7xpcb0.com1.z0.glb.clouddn.com/content_7.png">
+            <img class="img img-responsive object-absolute object-opacity-hide" id="content-8" src="http://7xpcb0.com1.z0.glb.clouddn.com/content_8.png">
+            <img class="video video-right object-absolute" id="content-1-video" src="http://7xpcb0.com1.z0.glb.clouddn.com/video_1.png" data-toggle="modal" data-target="#video" onclick="open_video(1)">
+            <img class="video video-left object-absolute" id="content-2-video" src="http://7xpcb0.com1.z0.glb.clouddn.com/video_2.png" data-toggle="modal" data-target="#video" onclick="open_video(2)">
+            <img class="video video-right object-absolute" id="content-3-video" src="http://7xpcb0.com1.z0.glb.clouddn.com/video_3.png" data-toggle="modal" data-target="#video" onclick="open_video(3)">
+            <img class="video video-left object-absolute" id="content-4-video" src="http://7xpcb0.com1.z0.glb.clouddn.com/video_4.png" data-toggle="modal" data-target="#video" onclick="open_video(4)">
+            <img class="video video-right object-absolute" id="content-5-video" src="http://7xpcb0.com1.z0.glb.clouddn.com/video_5.png" data-toggle="modal" data-target="#video" onclick="open_video(5)">
+            <img class="video video-left object-absolute" id="content-6-video" src="http://7xpcb0.com1.z0.glb.clouddn.com/video_6.png" data-toggle="modal" data-target="#video" onclick="open_video(6)">
+            <img class="video video-right object-absolute" id="content-7-video" src="http://7xpcb0.com1.z0.glb.clouddn.com/video_7.png" data-toggle="modal" data-target="#video" onclick="open_video(7)">
+            <img class="video video-bottom-left object-absolute" id="content-11-video" src="http://7xpcb0.com1.z0.glb.clouddn.com/video_11.png" data-toggle="modal" data-target="#video" onclick="open_video(11)">
+            <img class="video video-bottom-middle object-absolute" id="content-12-video" src="http://7xpcb0.com1.z0.glb.clouddn.com/video_13.png" data-toggle="modal" data-target="#video" onclick="open_video(12)">
+            <img class="video video-bottom-right object-absolute" id="content-13-video" src="http://7xpcb0.com1.z0.glb.clouddn.com/video_12.png" data-toggle="modal" data-target="#video" onclick="open_video(13)">
+        </section>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="video" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"></h4>
+                </div>
+                <div class="modal-body" id="modal-body"></div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+</html>
