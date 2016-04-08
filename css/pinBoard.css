@@ -32,3 +32,15 @@ ul.notes li div{
     top:-9px;
     padding:3px 15px;
 }
+#more{
+    background: #f9c6d1;
+    border:none;
+    color: white;
+    clear: both;
+    display: block;
+    padding:4px 8px;
+    margin:10px auto;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
