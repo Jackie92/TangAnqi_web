@@ -20,7 +20,7 @@ Pin.getMsgList = function(_pageNo){
         },
         isToken:false,
     };
-    //ajaxPost请求
+    //ajax请求
     JAC.ajax.get(opt,getList);
 
     function getList (json){
@@ -132,7 +132,6 @@ Pin.sendMsg = function(){
     JAC.ajax.post(opt,postMsg);
 
     function postMsg (json){
-        console.log(json);
         alert(json.message);
     };
 };
