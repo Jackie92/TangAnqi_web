@@ -44,3 +44,15 @@ ul.notes li div{
     -moz-border-radius:10px;
     border-radius:10px;
 }
+.fa{
+    background: url("../images/home.png") center center no-repeat;
+    display: block;
+    width: 22px;
+    height: 22px;
+    -webkit-background-size:cover;
+    background-size:contain;
+;
+}
+.fa-home:before{
+    content: '';
+}

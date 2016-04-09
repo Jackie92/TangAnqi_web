@@ -24,12 +24,13 @@ Pin.getMsgList = function(_pageNo){
     JAC.ajax.get(opt,getList);
 
     function getList (json){
-        json = Pin.fake();
+        //json = Pin.fake();
         console.log(json);
-        if(json.info.list == null){
+        if(json.list.length == 0){
+            $("#more").hide();
             return;
         }
-        Pin.showList(json.info);
+        Pin.showList(json);
     };
 };
 
@@ -53,7 +54,7 @@ Pin.showList = function(data){
         var date = n.date;
         row += row_str.format([date,author,msg]);
     }
-    $("ul.notes").html(row);
+    $("ul.notes").append(row);
 };
 
 Pin.bindEvent = function(){
