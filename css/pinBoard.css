@@ -10,6 +10,14 @@ ul.notes li div{
     width:100%;
     height:100%;
 }
+@media screen and (max-width: 600px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+    .bg_img {
+        width: 1800px;
+    }
+    #msg_content{
+        width:230px;
+    }
+}
 .bg_img img{
     width:100%;
     height:100%;
