@@ -133,5 +133,7 @@ Pin.sendMsg = function(){
 
     function postMsg (json){
         alert(json.message);
+        $("#name_input").val("");
+        $("#msg_content").val("");
     };
 };
