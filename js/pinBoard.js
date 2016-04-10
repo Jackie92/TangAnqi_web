@@ -26,11 +26,11 @@ Pin.getMsgList = function(_pageNo){
     function getList (json){
         //json = Pin.fake();
         console.log(json);
-        if(json.list.length == 0){
+        if(json.info.list.length == 0){
             $("#more").hide();
             return;
         }
-        Pin.showList(json);
+        Pin.showList(json.info);
     };
 };
 
