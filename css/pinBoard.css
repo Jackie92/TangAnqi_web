@@ -17,6 +17,10 @@ ul.notes li div{
     #msg_content{
         width:230px;
     }
+    #msg_count{
+        left: 20px!important;
+        top: 100px!important;
+    }
 }
 .bg_img img{
     width:100%;
@@ -63,4 +67,15 @@ ul.notes li div{
 }
 .fa-home:before{
     content: '';
+}
+#msg_count{
+    position: fixed;
+    z-index: 4;
+    left: 80px;
+    top: 100px;
+}
+#msg_count>p>span{
+    font-size:20px;
+    color: #cb8285;
+    padding:0 3px;
 }
